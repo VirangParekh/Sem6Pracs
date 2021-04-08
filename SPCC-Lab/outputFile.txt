@@ -1,0 +1,13 @@
+Symbol Table  :  
+
+ Symbol           Value(Address) 
+ NEXT              0001 
+
+ Pass-1 machine code output without reference of the symbolic address : 
+Relative Address	Instruction	    OpCode
+0                                 MOV R	              1 
+1                                 ADD R	              8 
+2                                 DCR R	              16 
+3                                 JNZ NEXT	              19, - 
+6                                 STORE 2000	              15,20,00 
+9                                 HALT	              20 
